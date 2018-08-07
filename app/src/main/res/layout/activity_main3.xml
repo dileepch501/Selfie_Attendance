@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gcolor2"
+    tools:context="in.dileep.spteam.selfie_attendance.MainActivity3">
+
+    <Button
+        android:id="@+id/takepic"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Take a picture"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/backcolor"
+        android:background="@drawable/button"/>
+    <ImageView
+        android:id="@+id/imv1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/backcolor"
+        android:background="@drawable/button"/>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gcolor2"
+    android:orientation="vertical"
+    tools:context="in.dileep.spteam.selfie_attendance.MainActivity4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Click on Button to confirm"
+        android:id="@+id/atext1"/>
+    <Button
+        android:id="@+id/confrom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/backcolor"
+        android:background="@drawable/button"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/text2"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text3"
+        android:textSize="30dp"/>
+</LinearLayout>

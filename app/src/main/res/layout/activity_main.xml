@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    tools:context="in.dileep.spteam.selfie_attendance.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/stv"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="WELCOME TO "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/Wcolor"/>
+        <ImageView
+            android:id="@+id/siv"
+            android:src="@drawable/spmileteam"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
